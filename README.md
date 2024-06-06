@@ -1,12 +1,11 @@
-- 👋 Hi, I’m @alekshiryaev82
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m Looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ FUN05 fact: 033454...06
+---
+features:
+  - |
+    The HDF5Driver has been refactored to leverage the new HDF5-integration
+    protocol of Qiskit Nature. The driver still supports loading legacy
+    QMolecule HDF5 files and also provides a conversion utility:
 
-<!---
-alekshiryaev82/alekshiryaev82 is a ✨ special 1800 ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    .. code-block:: python
+
+      driver = HDF5Driver("path_to_qmolecule.hdf5")
+      driver.convert(replace=True)
