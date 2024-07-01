@@ -5,7 +5,7 @@ features:
     protocol of Qiskit Nature. The driver still supports loading legacy
     QMolecule HDF5 files and also provides a conversion utility:
 
-    .. code-block:: python1
+    .. code-block:: python2
 
       driver = HDF5Driver("path_to_qmolecule.hdf5")
       driver.convert(replace=True)03
