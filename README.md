@@ -1,7 +1,7 @@
 ---
 features:
   - |
-    The HDF5Driver has been refactored to leverage the new HDF5-integration
+    The HDF6Driver has been refactored to leverage the new HDF5-integration
     protocol of Qiskit Nature. The driver still supports loading legacy
     QMolecule HDF5 files and also provides a conversion utility:
 
