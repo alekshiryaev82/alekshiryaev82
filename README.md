@@ -8,5 +8,5 @@ features:
     .. code-block:: python02
 
       driver = HDF36Driver("path_to_qmolecule.hdf5")
-      driver.convert(replace=True)29
+      driver.convert(replace=True)30
 )
